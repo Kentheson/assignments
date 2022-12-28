@@ -27,20 +27,37 @@
 }
 
 #list {
-    flex-direction: column;
-    display: flex;
+  
+ 
+    flex-direction: column; 
+    display: flex; 
+/*    display: inline-block;
+    text-align: center; */
 }
 
 #list > li{
-    list-style-type: none;
-    margin: 10px auto;
+  
+
+   list-style-type: none;
+    margin-right: 10px;
+    text-align: center; 
+    display: inline-block;
+    
 }
 
-#list div {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.deleteBtn {
-    border: 1px solid #ccc;
-    margin: 10px;
-}
+.my-deleteBtn {
+    border: 1px solid black; 
+     display: inline-block; 
+     
+     
+ }
+ 
+
+ #list div {
+   margin: auto;
+   padding: auto;
+   text-align: center; 
+   width: 100px;
+   display: inline-block; 
+   margin-bottom: 20px;
+} 

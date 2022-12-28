@@ -13,6 +13,7 @@ button.addEventListener("click", function(event){
     list.append(li)
     form.title.value = " "
     const deleteBtn = document.createElement("deleteBtn")
+    deleteBtn.className = 'my-deleteBtn';
     deleteBtn.innerText = "X"
     li.append(deleteBtn)
     deleteBtn.addEventListener("click", (event) => li.remove())
